@@ -1,5 +1,6 @@
+import 'package:TelegramClone/addmessage.dart';
 import 'package:flutter/material.dart';
-//import 'messages.dart';
+import 'addmessage.dart';
 import 'drawer.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -90,7 +91,10 @@ class _HomeScreenState extends State<HomeScreen> {
             color: Colors.white,
           ),
           backgroundColor: Colors.blue[600],
-          onPressed: () {}),
+          onPressed: () {
+            Navigator.of(context)
+                  .push(MaterialPageRoute(builder: (context) => AddMessage()));
+          }),
     );
   }
 }
