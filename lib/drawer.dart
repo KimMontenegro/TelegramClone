@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'newgroup.dart';
 
 class DrawerScreen extends StatefulWidget {
   @override
@@ -18,55 +19,54 @@ class _DrawerScreenState extends State<DrawerScreen> {
               ),
               accountEmail: Text('1234@gmail.com')),
           ListTile(
-            trailing: Icon(Icons.group),
+            leading: Icon(Icons.group),
             title: Text('New Group'),
-            onTap: () {},
+            onTap: () {
+              Navigator.of(context)
+                  .push(MaterialPageRoute(builder: (context) => NewGroup()));
+            },
           ),
-          Divider(),
           ListTile(
-            trailing: Icon(Icons.lock),
+            leading: Icon(Icons.lock),
             title: Text('New Secret Chat'),
             onTap: () {},
           ),
-          Divider(),
           ListTile(
-            trailing: Icon(Icons.notifications),
+            leading: Icon(Icons.notifications),
             title: Text('New Channel'),
             onTap: () {},
           ),
-          Divider(),
           ListTile(
-            trailing: Icon(Icons.contacts),
+            leading: Icon(Icons.contacts),
             title: Text('Contacts'),
             onTap: () {},
           ),
-          Divider(),
           ListTile(
-            trailing: Icon(Icons.phone),
+            leading: Icon(Icons.phone),
             title: Text('Calls'),
             onTap: () {},
           ),
-          Divider(),
           ListTile(
-            trailing: Icon(Icons.bookmark_border),
+            leading: Icon(Icons.bookmark_border),
             title: Text('Saved Messages'),
             onTap: () {},
           ),
-          Divider(),
           ListTile(
-            trailing: Icon(Icons.settings),
+            leading: Icon(Icons.settings),
             title: Text('Settings'),
             onTap: () {},
           ),
-          Divider(),
+          Divider(
+            color: Colors.grey,
+            thickness: 1,
+          ),
           ListTile(
-            trailing: Icon(Icons.person_add),
+            leading: Icon(Icons.person_add),
             title: Text('Invite Friends'),
             onTap: () {},
           ),
-          Divider(),
           ListTile(
-            trailing: Icon(Icons.help_outline),
+            leading: Icon(Icons.help_outline),
             title: Text('Telegram FAQ'),
             onTap: () {},
           )
@@ -75,4 +75,3 @@ class _DrawerScreenState extends State<DrawerScreen> {
     );
   }
 }
-
