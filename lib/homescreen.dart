@@ -21,17 +21,68 @@ class _HomeScreenState extends State<HomeScreen> {
         ],
       ),
       drawer: DrawerScreen(),
-      body: ListTile(
-        leading: CircleAvatar(
-          radius: 28,
-          // backgroundImage: NetworkImage(items[i].profile),
-        ),
-        title: Text(
-          'message 1',
-          style: TextStyle(fontWeight: FontWeight.bold),
-        ),
-        subtitle: Text('Hi!!'),
-        trailing: Text('10:39'),
+      body: Column(
+        children: [
+          ListTile(
+            leading: CircleAvatar(
+              radius: 28,
+            ),
+            title: Text(
+              'Group 1',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+            subtitle: Text('Rei: Hi!!'),
+            trailing: Text('10:39 AM'),
+          ),
+          Divider(),
+          ListTile(
+            leading: CircleAvatar(
+              radius: 28,
+            ),
+            title: Text(
+              'Name 1',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+            subtitle: Text('Ta AU'),
+            trailing: Text('1:59 AM'),
+          ),
+          Divider(),
+          ListTile(
+            leading: CircleAvatar(
+              radius: 28,
+            ),
+            title: Text(
+              'Name 2',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+            subtitle: Text('Tara ML'),
+            trailing: Text('Sep 03'),
+          ),
+          Divider(),
+          ListTile(
+            leading: CircleAvatar(
+              radius: 28,
+            ),
+            title: Text(
+              'Name 3',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+            subtitle: Text('Ta Fall Guys'),
+            trailing: Text('Jun 15'),
+          ),
+          Divider(),
+          ListTile(
+            leading: CircleAvatar(
+              radius: 28,
+            ),
+            title: Text(
+              'Name 4',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+            subtitle: Text('How are you?'),
+            trailing: Text('May 22'),
+          ),
+        ],
       ),
       floatingActionButton: FloatingActionButton(
           child: Icon(
@@ -43,5 +94,3 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
-
-

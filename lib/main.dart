@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Telegram',
       theme: ThemeData(
-      primaryColor: Colors.blue[600],
+      primaryColor: Colors.blue[800],
       //accentColor: Color(0xFFe7ebf0),
         backgroundColor: Colors.white
       ),
