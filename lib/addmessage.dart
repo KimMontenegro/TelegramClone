@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'addcontact.dart';
 
 class AddMessage extends StatefulWidget {
   @override
@@ -72,7 +73,10 @@ class _AddMessageState extends State<AddMessage> {
           color: Colors.white,
         ),
         backgroundColor: Colors.blue[600],
-        onPressed: () {},
+        onPressed: () {
+          Navigator.of(context)
+              .push(MaterialPageRoute(builder: (context) => AddContact()));
+        },
       ),
     );
   }
