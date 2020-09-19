@@ -40,23 +40,23 @@ class _HomeScreenState extends State<HomeScreen> {
           ListTile(
             leading: CircleAvatar(
               radius: 28,
-              backgroundImage: AssetImage('assets/images/p1.jpg'),
+              backgroundImage: AssetImage('assets/images/p6.jpg'),
             ),
             title: Text(
-              'Name 1',
+              'Group 2',
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
-            subtitle: Text('Ta AU'),
+            subtitle: Text('JOIN THE MOVEMENT NOW!'),
             trailing: Text('1:59 AM'),
           ),
           Divider(),
           ListTile(
             leading: CircleAvatar(
               radius: 28,
-              backgroundImage: AssetImage('assets/images/p2.jpg'),
+              backgroundImage: AssetImage('assets/images/p1.jpg'),
             ),
             title: Text(
-              'Name 2',
+              'Name 1',
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             subtitle: Text('Tara ML'),
@@ -69,7 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
               backgroundImage: AssetImage('assets/images/p3.jpg'),
             ),
             title: Text(
-              'Name 3',
+              'Name 2',
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             subtitle: Text('Ta Fall Guys'),
@@ -82,12 +82,26 @@ class _HomeScreenState extends State<HomeScreen> {
               backgroundImage: AssetImage('assets/images/p4.jpg'),
             ),
             title: Text(
-              'Name 4',
+              'Name 3',
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             subtitle: Text('How are you?'),
             trailing: Text('May 22'),
           ),
+          Divider(),
+          ListTile(
+            leading: CircleAvatar(
+              radius: 28,
+              backgroundImage: AssetImage('assets/images/p2.jpg'),
+            ),
+            title: Text(
+              'Name 4',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+            subtitle: Text('Ta Fall Guys'),
+            trailing: Text('Jun 15'),
+          ),
+          
         ],
       ),
       floatingActionButton: FloatingActionButton(
