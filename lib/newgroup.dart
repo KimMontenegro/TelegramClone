@@ -41,6 +41,7 @@ class _NewGroupState extends State<NewGroup> {
             child: ListTile(
               leading: CircleAvatar(
                 radius: 28,
+                backgroundImage: AssetImage('assets/images/p5.jpg'),
               ),
               title: Text(
                 'other contact',

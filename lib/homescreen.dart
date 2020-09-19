@@ -27,6 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ListTile(
             leading: CircleAvatar(
               radius: 28,
+              backgroundImage: AssetImage('assets/images/group.jpg'),
             ),
             title: Text(
               'Group 1',
@@ -39,6 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ListTile(
             leading: CircleAvatar(
               radius: 28,
+              backgroundImage: AssetImage('assets/images/p1.jpg'),
             ),
             title: Text(
               'Name 1',
@@ -51,6 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ListTile(
             leading: CircleAvatar(
               radius: 28,
+              backgroundImage: AssetImage('assets/images/p2.jpg'),
             ),
             title: Text(
               'Name 2',
@@ -63,6 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ListTile(
             leading: CircleAvatar(
               radius: 28,
+              backgroundImage: AssetImage('assets/images/p3.jpg'),
             ),
             title: Text(
               'Name 3',
@@ -75,6 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ListTile(
             leading: CircleAvatar(
               radius: 28,
+              backgroundImage: AssetImage('assets/images/p4.jpg'),
             ),
             title: Text(
               'Name 4',
